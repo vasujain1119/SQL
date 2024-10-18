@@ -121,7 +121,7 @@ Barack Obama
 FROM world
   WHERE continent ='Europe'
 
---Which countries have a GDP greater than every country in Europe? [Give the name only.] (Some countries may have NULL gdp values)
+--6Which countries have a GDP greater than every country in Europe? [Give the name only.] (Some countries may have NULL gdp values)
        SELECT name
         FROM world
          WHERE gdp > (
@@ -130,5 +130,5 @@ FROM world
                WHERE continent = 'Europe' AND gdp > 0)
 
 
-  
+  --7 
                       
